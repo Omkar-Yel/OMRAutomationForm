@@ -92,6 +92,7 @@ namespace OMRAutomationForm
                 else
                 {
                     doc = corelApp.CreateDocument();
+                    doc.Unit = VGCore.cdrUnit.cdrMillimeter; // Set units to millimeters
                     doc.ActivePage.SizeWidth = 210;   // Width in mm for A4
                     doc.ActivePage.SizeHeight = 297;  // Height in mm for A4
                 }
@@ -382,6 +383,11 @@ namespace OMRAutomationForm
                 circle_temp_x_reference += 36.851;
             }
             MessageBox.Show("Questions Added");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

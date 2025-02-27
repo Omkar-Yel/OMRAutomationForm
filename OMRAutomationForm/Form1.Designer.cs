@@ -33,6 +33,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -83,13 +84,23 @@
             this.label1.Size = new System.Drawing.Size(305, 13);
             this.label1.TabIndex = 4;
             this.label1.Text = "To create OMR similar to the Washim District Scholarship Exam";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(545, 127);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(154, 36);
+            this.button5.TabIndex = 5;
+            this.button5.Text = "FLN";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(714, 230);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -110,6 +121,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button5;
     }
 }
 
